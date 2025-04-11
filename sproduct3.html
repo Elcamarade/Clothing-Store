@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siteul meu de vanzari</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Acasă</a></li>
+                <li><a class="active" href="shop.html">Magazin</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">Despre</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/products/f3.jpg" width="100%" id="MainImg" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/products/f3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f1.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f4.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>Acasă / Tricou</h6>
+            <h4><b>Tricou Vintage Rose</b></h4>
+            <h2>1580 lei</h2>
+            <select class="size-select">
+                <option value="">Alege Mărimea</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+            </select>
+            <input type="number" value="1" min="1" class="quantity-input">
+            <button class="normal add-to-cart" data-img="img/products/f3.jpg" data-name="Tricou Vintage Rose" data-price="1580">Adaugă în coș</button>
+            <h4>Detalii produs</h4>
+            <span>Tricoul Vintage Rose de la Lacoste aduce un vibe retro cu un design floral subtil. Fabricat din bumbac premium, este perfect pentru un look casual și elegant.</span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Produse recomandate</h2>
+        <p>Colecție Casual Designuri Noi și Moderne</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/n1.jpg" alt="">
+                <div class="des">
+                    <span>Tommy Hilfiger</span>
+                    <h5>Cămașă Sky Breeze Linen</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>600 lei</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n2.jpg" alt="">
+                <div class="des">
+                    <span>Zara</span>
+                    <h5>Cămașă City Check</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>560 lei</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n3.jpg" alt="">
+                <div class="des">
+                    <span>H&M</span>
+                    <h5>Cămașă White Element</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>680 lei</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n4.jpg" alt="">
+                <div class="des">
+                    <span>Pull&Bear</span>
+                    <h5>Tricou Nomad Sketch</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>740 lei</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Primește actualizări prin E-mail despre cele mai recente produse din magazinul nostru și <span>ofertele speciale.</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Adresa ta de e-mail">
+            <button class="normal">Înscrie-te</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contacte</h4>
+            <p><strong>Adresa:</strong> Strada:Mircesti 22/4 Colegiul UTM, Moldova, Chișinău</p>
+            <p><strong>Telefon:</strong> +373 69 123 456</p>
+            <p><strong>Ore de lucru:</strong> 08:00 - 18:00, Luni - Vineri</p>
+            <div class="follow">
+                <h4>Urmărește-ne</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Despre</h4>
+            <a href="#">Despre noi</a>
+            <a href="#">Informații Despre Livrare</a>
+            <a href="#">Politica de Confidențialitate</a>
+            <a href="#">Termeni Și Condiții</a>
+            <a href="#">Contactează-Ne</a>
+        </div>
+        <div class="col">
+            <h4>Contul Meu</h4>
+            <a href="#">Conectează-te</a>
+            <a href="#">Vezi Coșul</a>
+            <a href="#">Lista Mea De Dorințe</a>
+            <a href="#">Urmărește Comanda Mea</a>
+            <a href="#">Ajutor</a>
+        </div>
+        <div class="col install">
+            <h4>Instalează aplicația</h4>
+            <p>De pe App Store sau Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Sisteme De Plată Securizate</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2025, Elcamarade - Site Mișto de Vânzări Pentru Cei Mișto</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="single.js"></script>
+</body>
+</html>
